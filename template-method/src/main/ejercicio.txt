@@ -1,0 +1,13 @@
+Hacer un programa que calcule el área de un triángulo
+
+Dado un triángulo con base 4 y altura 8, debería dar un área de 16.
+Dado un triángulo con base -4 y altura 8, debería dar un área de -1.
+Dado un triángulo con base 4 y altura -8, debería dar un área de -1.
+
+public calcularArea(int b, int h){
+    if(b <= 0 || h <= 0){
+        return -1;
+    }else{
+        return (b * h)/2;
+    }
+}
